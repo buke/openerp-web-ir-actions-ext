@@ -49,13 +49,8 @@ http://me.alipay.com/wangbuke
     'author': 'wangbuke@gmail.com',
     'website': 'http://buke.github.io',
     'depends': ['web'],
-    'js': [
-        'static/src/js/*.js'
-    ],
-    'css': [
-    ],
-    'qweb' : [
-        'static/src/xml/*.xml',
+    'data': [
+        'views/web_ir_actions_ext.xml',
     ],
     'installable': True,
     'images': [],
